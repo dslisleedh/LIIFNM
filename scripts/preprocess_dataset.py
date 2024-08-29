@@ -30,7 +30,7 @@ def get_feats_from_file(file_name):
 
 
 def _preprocess(
-        data_path: str = '/home/dslisleedh/KIOST_MOHID/',
+        data_path: str = './KIOST_MOHID/',
         save_path: str = './load/nm_wf'
 ):
     os.makedirs(save_path, exist_ok=True)
